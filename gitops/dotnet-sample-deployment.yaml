@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: pipeline-dotnet-sample
-          image: image-registry.openshift-image-registry.svc:5000/dojo/pipeline-dotnet-sample
+          image: image-registry.openshift-image-registry.svc:5000/dojo/pipeline-dotnet-sample@sha256:7ea303ae5a0321549ee45202092bad2a8b3040fffa69e47bf5322a20bc371983
           ports:
             - containerPort: 8080
               protocol: TCP
